@@ -1,0 +1,360 @@
+2026-11-20 10:39:55,278 - INFO - Se inició el sistema de gestión de Software FJ.
+2026-11-20 10:39:55,278 - INFO - Cliente registrado: 123456789 - Camila Torres.
+2026-11-20 10:39:55,278 - INFO - Servicio registrado: S001 - Sala de reuniones.
+2026-11-20 10:39:55,278 - INFO - Se creó la reserva R001 para el cliente Camila Torres.
+2026-11-20 10:39:55,278 - INFO - Reserva R001 creada para el cliente 123456789.
+2026-11-20 10:39:55,278 - INFO - Reserva R001 confirmada. Total: $100000.00.
+2026-11-20 10:39:55,278 - INFO - Finalizó el intento de procesamiento de la reserva R001.
+2026-11-20 10:39:55,278 - INFO - El sistema confirmó la reserva R001.
+2026-11-20 10:39:55,278 - INFO - La reserva R001 fue cancelada.
+2026-11-20 10:39:55,278 - INFO - El sistema canceló la reserva R001.
+2026-11-20 10:42:45,741 - INFO - Se inició el sistema de gestión de Software FJ.
+2026-11-20 10:42:50,349 - INFO - Se inició el sistema de gestión de Software FJ.
+2026-11-20 10:44:18,953 - ERROR - Error controlado en el menú: El nombre no debe contener números ni símbolos inválidos.
+2026-11-20 10:45:19,685 - INFO - Servicio registrado: S001 - sala de reuniones.
+2026-11-20 10:46:19,571 - ERROR - Error controlado en el menú: Ya existe un servicio con ese identificador.
+2026-11-20 10:52:49,651 - INFO - Se inició el sistema de gestión de Software FJ.
+2026-11-20 10:54:18,908 - INFO - Servicio registrado: S001 - sala de reuniones.
+2026-11-20 10:55:25,897 - INFO - Servicio registrado: E001 - computador portatil.
+2026-11-20 10:56:34,057 - INFO - Servicio registrado: A001 - Asesoria en desarrollo de software.
+2026-11-20 10:57:38,737 - ERROR - Error controlado en el menú: No existe un cliente registrado con esa identificación.
+2026-11-20 10:58:30,386 - ERROR - Error controlado en el menú: No existe un cliente registrado con esa identificación.
+2026-11-20 10:58:53,638 - INFO - Cliente registrado: 123456789 - Camila.
+2026-11-20 10:59:28,861 - INFO - Se creó la reserva R001 para el cliente Camila.
+2026-11-20 10:59:28,863 - INFO - Reserva R001 creada para el cliente 123456789.
+2026-11-20 10:59:59,447 - ERROR - Error inesperado en el programa.
+Traceback (most recent call last):
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/main.py", line 273, in main
+    consultar_reservas()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/main.py", line 213, in consultar_reservas
+    sistema.mostrar_reservas()
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SistemaGestion' object has no attribute 'mostrar_reservas'. Did you mean: 'listar_reservas'?
+2026-11-20 11:01:51,100 - INFO - Se inició el sistema de gestión de Software FJ.
+2026-11-20 11:01:54,110 - ERROR - Error inesperado en el programa.
+Traceback (most recent call last):
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/main.py", line 275, in main
+    consultar_reservas()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/main.py", line 215, in consultar_reservas
+    print(sistema.mostrar_reservas())
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SistemaGestion' object has no attribute 'mostrar_reservas'. Did you mean: 'listar_reservas'?
+2026-11-20 11:04:19,815 - INFO - Servicio registrado: S001 - Sala de reuniones.
+2026-11-20 11:05:03,274 - INFO - Cliente registrado: 123456789 - Camila Duque.
+2026-11-20 11:05:31,980 - INFO - Se creó la reserva R001 para el cliente Camila Duque.
+2026-11-20 11:05:31,981 - INFO - Reserva R001 creada para el cliente 123456789.
+2026-11-20 11:05:48,277 - ERROR - Error inesperado en el programa.
+Traceback (most recent call last):
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/main.py", line 275, in main
+    consultar_reservas()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/main.py", line 215, in consultar_reservas
+    print(sistema.mostrar_reservas())
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SistemaGestion' object has no attribute 'mostrar_reservas'. Did you mean: 'listar_reservas'?
+2026-11-20 11:15:20,768 - INFO - Se inició el sistema de gestión de Software FJ.
+2026-11-20 11:15:23,180 - INFO - Se inició el sistema de gestión de Software FJ.
+2026-11-20 11:15:54,065 - ERROR - Error controlado en el menú: El correo debe contener un único símbolo @.
+2026-11-20 11:16:24,571 - INFO - Cliente registrado: 123456789 - Camila Duque.
+2026-11-20 11:17:17,646 - INFO - Servicio registrado: S001 - Sala de reuniones.
+2026-11-20 11:18:10,218 - INFO - Se creó la reserva R001 para el cliente Camila Duque.
+2026-11-20 11:18:10,220 - INFO - Reserva R001 creada para el cliente 123456789.
+2026-11-20 11:19:59,694 - INFO - Reserva R001 confirmada. Total: $119000.00.
+2026-11-20 11:19:59,695 - INFO - Finalizó el intento de procesamiento de la reserva R001.
+2026-11-20 11:19:59,696 - INFO - El sistema confirmó la reserva R001.
+2026-11-20 11:21:39,566 - INFO - La reserva R001 fue cancelada.
+2026-11-20 11:21:39,568 - INFO - El sistema canceló la reserva R001.
+2026-11-20 11:23:55,425 - ERROR - Error controlado en el menú: No existe un cliente registrado con esa identificación.
+2026-11-20 11:24:34,637 - INFO - Cliente registrado: 456358 - Carlos Ruiz.
+2026-11-20 11:26:03,665 - ERROR - Error controlado en el menú: No existe un servicio registrado con ese identificador.
+2026-11-20 11:29:50,833 - INFO - Se inició el sistema de gestión de Software FJ.
+2026-11-20 11:31:04,039 - INFO - Cliente registrado: 1234524 - Antonella Enrique.
+2026-11-20 11:33:26,802 - INFO - Se inició el sistema de gestión de Software FJ.
+2026-11-20 11:46:00,424 - INFO - Se inició el sistema de gestión de Software FJ.
+2026-11-20 11:46:42,486 - INFO - Cliente registrado: 123456789 - Camila Torres.
+2026-11-20 11:56:00,831 - INFO - Se inició el sistema de gestión de Software FJ.
+2026-11-20 11:56:00,831 - INFO - Cliente registrado: 123456789 - Camila Torres.
+2026-11-20 11:56:00,831 - INFO - Servicio registrado: S001 - Sala de reuniones.
+2026-11-20 11:56:00,831 - INFO - Se creó la reserva R001 para el cliente Camila Torres.
+2026-11-20 11:56:00,831 - INFO - Reserva R001 creada para el cliente 123456789.
+2026-11-20 11:56:00,831 - INFO - Reserva R001 confirmada. Total: $100000.00.
+2026-11-20 11:56:00,831 - INFO - Finalizó el intento de procesamiento de la reserva R001.
+2026-11-20 11:56:00,831 - INFO - El sistema confirmó la reserva R001.
+2026-11-20 11:56:00,831 - INFO - La reserva R001 fue cancelada.
+2026-11-20 11:56:00,831 - INFO - El sistema canceló la reserva R001.
+2026-11-20 11:57:06,074 - INFO - Se inició el sistema de gestión de Software FJ.
+2026-11-20 11:57:06,075 - INFO - Cliente registrado: 123456789 - Camila Torres.
+2026-11-20 11:57:06,075 - INFO - Servicio registrado: S001 - Sala de reuniones.
+2026-11-20 11:57:06,075 - INFO - Se creó la reserva R001 para el cliente Camila Torres.
+2026-11-20 11:57:06,075 - INFO - Reserva R001 creada para el cliente 123456789.
+2026-11-20 11:57:06,075 - INFO - Reserva R001 confirmada. Total: $100000.00.
+2026-11-20 11:57:06,075 - INFO - Finalizó el intento de procesamiento de la reserva R001.
+2026-11-20 11:57:06,075 - INFO - El sistema confirmó la reserva R001.
+2026-11-20 11:57:06,075 - INFO - La reserva R001 fue cancelada.
+2026-11-20 11:57:06,076 - INFO - El sistema canceló la reserva R001.
+2026-11-20 11:57:45,107 - INFO - Se inició el sistema de gestión de Software FJ.
+2026-11-20 11:57:46,737 - INFO - Se inició el sistema de gestión de Software FJ.
+2026-11-20 11:59:03,716 - INFO - Cliente registrado: 123456789 - Camila Torres.
+2026-11-20 12:00:41,837 - ERROR - Error controlado en el menú: Ya existe un cliente con esa identificación.
+2026-11-20 12:02:12,301 - INFO - Cliente registrado: 21342 - Daniela Buesaco.
+2026-11-20 12:03:28,804 - INFO - Servicio registrado: S001 - Sala de reuniones.
+2026-11-20 12:04:50,986 - INFO - Servicio registrado: E001 - Computador portatil.
+2026-11-20 12:06:04,532 - INFO - Servicio registrado: A001 - Asesoria informatica.
+2026-11-20 12:07:23,051 - INFO - Se creó la reserva R001 para el cliente Camila Torres.
+2026-11-20 12:07:23,053 - INFO - Reserva R001 creada para el cliente 123456789.
+2026-11-20 12:08:22,844 - INFO - Reserva R001 confirmada. Total: $119000.00.
+2026-11-20 12:08:22,845 - INFO - Finalizó el intento de procesamiento de la reserva R001.
+2026-11-20 12:08:22,846 - INFO - El sistema confirmó la reserva R001.
+2026-11-20 12:09:16,093 - INFO - La reserva R001 fue cancelada.
+2026-11-20 12:09:16,095 - INFO - El sistema canceló la reserva R001.
+2026-11-20 12:11:47,953 - ERROR - Error controlado en el menú: No existe un cliente registrado con esa identificación.
+2026-11-20 12:12:59,384 - ERROR - Error controlado en el menú: No existe un servicio registrado con ese identificador.
+2026-11-20 12:15:11,950 - ERROR - Error controlado en el menú: No existe un cliente registrado con esa identificación.
+2026-11-20 12:16:13,805 - INFO - Se creó la reserva R004 para el cliente Daniela Buesaco.
+2026-11-20 12:16:13,808 - INFO - Reserva R004 creada para el cliente 21342.
+2026-11-20 12:17:20,515 - ERROR - Error controlado en el menú: Ya existe una reserva con ese identificador.
+2026-11-20 12:19:14,635 - INFO - Se creó la reserva R005 para el cliente Camila Torres.
+2026-11-20 12:19:14,636 - INFO - Reserva R005 creada para el cliente 123456789.
+2026-11-20 12:20:24,068 - INFO - Reserva R005 confirmada. Total: $180880.00.
+2026-11-20 12:20:24,069 - INFO - Finalizó el intento de procesamiento de la reserva R005.
+2026-11-20 12:20:24,070 - INFO - El sistema confirmó la reserva R005.
+2026-11-20 12:21:05,049 - ERROR - No se pudo procesar la reserva R005.
+Traceback (most recent call last):
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/sistema.py", line 198, in procesar_reserva
+    total = reserva_encontrada.procesar_reserva()
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/reservas.py", line 160, in procesar_reserva
+    raise OperacionNoPermitidaError(
+        "Solo se pueden procesar reservas pendientes."
+    )
+excepciones.OperacionNoPermitidaError: Solo se pueden procesar reservas pendientes.
+2026-11-20 12:21:05,063 - ERROR - Error controlado en el menú: Solo se pueden procesar reservas pendientes.
+2026-11-20 12:21:58,808 - INFO - Se creó la reserva R006 para el cliente Camila Torres.
+2026-11-20 12:21:58,811 - INFO - Reserva R006 creada para el cliente 123456789.
+2026-11-20 12:22:34,428 - INFO - Reserva R006 confirmada. Total: $59500.00.
+2026-11-20 12:22:34,429 - INFO - Finalizó el intento de procesamiento de la reserva R006.
+2026-11-20 12:22:34,430 - INFO - El sistema confirmó la reserva R006.
+2026-11-20 12:24:15,462 - ERROR - Error al procesar la reserva R004.
+Traceback (most recent call last):
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/reservas.py", line 168, in procesar_reserva
+    desglose = self.__servicio.calcular_desglose(
+        self.__duracion,
+        self.__impuesto,
+        self.__descuento
+    )
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/servicios.py", line 202, in calcular_desglose
+    return self._calcular_desglose(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        duracion, impuesto, descuento
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/servicios.py", line 111, in _calcular_desglose
+    raise ServicioNoDisponibleError(
+        "El servicio seleccionado no está disponible."
+    )
+excepciones.ServicioNoDisponibleError: El servicio seleccionado no está disponible.
+2026-11-20 12:24:15,469 - INFO - Finalizó el intento de procesamiento de la reserva R004.
+2026-11-20 12:24:15,469 - ERROR - No se pudo procesar la reserva R004.
+Traceback (most recent call last):
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/reservas.py", line 168, in procesar_reserva
+    desglose = self.__servicio.calcular_desglose(
+        self.__duracion,
+        self.__impuesto,
+        self.__descuento
+    )
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/servicios.py", line 202, in calcular_desglose
+    return self._calcular_desglose(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        duracion, impuesto, descuento
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/servicios.py", line 111, in _calcular_desglose
+    raise ServicioNoDisponibleError(
+        "El servicio seleccionado no está disponible."
+    )
+excepciones.ServicioNoDisponibleError: El servicio seleccionado no está disponible.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/sistema.py", line 198, in procesar_reserva
+    total = reserva_encontrada.procesar_reserva()
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/reservas.py", line 187, in procesar_reserva
+    raise ReservaInvalidaError(
+        "No fue posible procesar la reserva."
+    ) from error
+excepciones.ReservaInvalidaError: No fue posible procesar la reserva.
+2026-11-20 12:24:15,470 - ERROR - Error controlado en el menú: No fue posible procesar la reserva.
+2026-11-20 12:26:49,444 - INFO - Se inició el sistema de gestión de Software FJ.
+2026-11-20 12:27:01,122 - ERROR - Error controlado en el menú: No se encontró la reserva solicitada.
+2026-11-20 12:48:25,368 - INFO - Se inició el sistema de gestión de Software FJ.
+2026-11-20 12:48:25,368 - INFO - Cliente registrado: 123456789 - Camila Torres.
+2026-11-20 12:48:25,368 - INFO - Servicio registrado: S001 - Sala de reuniones.
+2026-11-20 12:48:25,368 - INFO - Se creó la reserva R001 para el cliente Camila Torres.
+2026-11-20 12:48:25,368 - INFO - Reserva R001 creada para el cliente 123456789.
+2026-11-20 12:48:25,368 - INFO - Reserva R001 confirmada. Total: $100000.00.
+2026-11-20 12:48:25,368 - INFO - Finalizó el intento de procesamiento de la reserva R001.
+2026-11-20 12:48:25,368 - INFO - El sistema confirmó la reserva R001.
+2026-11-20 12:48:25,368 - INFO - La reserva R001 fue cancelada.
+2026-11-20 12:48:25,369 - INFO - El sistema canceló la reserva R001.
+2026-11-20 12:49:00,023 - INFO - Se inició el sistema de gestión de Software FJ.
+2026-11-20 12:49:02,841 - INFO - Se inició el sistema de gestión de Software FJ.
+2026-11-20 13:06:03,221 - INFO - Cliente registrado: 123456789 - Daniela Rodriguez.
+2026-11-20 13:07:06,429 - INFO - Servicio registrado: S001 - Sala de servicios.
+2026-11-20 13:07:29,638 - INFO - Se creó la reserva R001 para el cliente Daniela Rodriguez.
+2026-11-20 13:07:29,638 - INFO - Reserva R001 creada para el cliente 123456789.
+2026-11-20 13:07:45,527 - INFO - Reserva R001 confirmada. Total: $119000.00.
+2026-11-20 13:07:45,528 - INFO - Finalizó el intento de procesamiento de la reserva R001.
+2026-11-20 13:07:45,529 - INFO - El sistema confirmó la reserva R001.
+2026-11-20 13:09:36,442 - INFO - La reserva R001 fue cancelada.
+2026-11-20 13:09:36,444 - INFO - El sistema canceló la reserva R001.
+2026-11-20 13:13:07,856 - INFO - Cliente registrado: 9999999 - Jair Lopez.
+2026-11-20 13:14:23,630 - ERROR - Error controlado en el menú: No existe un cliente registrado con esa identificación.
+2026-11-20 13:20:38,547 - INFO - Se inició el sistema de gestión de Software FJ.
+2026-11-20 13:21:20,792 - INFO - Cliente registrado: 21567312 - Sofia Mares.
+2026-11-20 13:23:19,906 - INFO - Servicio registrado: A001 - Alquiler de computo.
+2026-11-20 13:24:40,749 - INFO - Se creó la reserva R002 para el cliente Sofia Mares.
+2026-11-20 13:24:40,751 - INFO - Reserva R002 creada para el cliente 21567312.
+2026-11-20 13:25:42,428 - ERROR - Error controlado en el menú: Ya existe una reserva con ese identificador.
+2026-11-20 13:26:40,741 - INFO - Reserva R002 confirmada. Total: $114954.00.
+2026-11-20 13:26:40,742 - INFO - Finalizó el intento de procesamiento de la reserva R002.
+2026-11-20 13:26:40,743 - INFO - El sistema confirmó la reserva R002.
+2026-11-20 13:31:20,310 - INFO - Se inició el sistema de gestión de Software FJ.
+2026-11-20 13:31:20,311 - INFO - Cliente registrado: 123456789 - Camila Torres.
+2026-11-20 13:31:20,311 - INFO - Servicio registrado: S001 - Sala de reuniones.
+2026-11-20 13:31:20,311 - INFO - Se creó la reserva R001 para el cliente Camila Torres.
+2026-11-20 13:31:20,311 - INFO - Reserva R001 creada para el cliente 123456789.
+2026-11-20 13:31:20,311 - INFO - Reserva R001 confirmada. Total: $100000.00.
+2026-11-20 13:31:20,311 - INFO - Finalizó el intento de procesamiento de la reserva R001.
+2026-11-20 13:31:20,311 - INFO - El sistema confirmó la reserva R001.
+2026-11-20 13:31:20,311 - INFO - La reserva R001 fue cancelada.
+2026-11-20 13:31:20,311 - INFO - El sistema canceló la reserva R001.
+2026-11-20 13:32:15,244 - INFO - Se inició el sistema de gestión de Software FJ.
+2026-11-20 13:32:15,244 - INFO - Cliente registrado: 123456789 - Camila Torres.
+2026-11-20 13:32:15,244 - INFO - Servicio registrado: S001 - Sala de reuniones.
+2026-11-20 13:32:15,244 - INFO - Se creó la reserva R001 para el cliente Camila Torres.
+2026-11-20 13:32:15,245 - INFO - Reserva R001 creada para el cliente 123456789.
+2026-11-20 13:32:15,245 - INFO - Reserva R001 confirmada. Total: $100000.00.
+2026-11-20 13:32:15,245 - INFO - Finalizó el intento de procesamiento de la reserva R001.
+2026-11-20 13:32:15,245 - INFO - El sistema confirmó la reserva R001.
+2026-11-20 13:32:15,245 - INFO - La reserva R001 fue cancelada.
+2026-11-20 13:32:15,245 - INFO - El sistema canceló la reserva R001.
+2026-11-20 13:33:24,713 - INFO - Se inició el sistema de gestión de Software FJ.
+2026-11-20 13:33:26,828 - INFO - Se inició el sistema de gestión de Software FJ.
+2026-11-20 13:34:19,505 - INFO - Servicio registrado: AOO1 - Prestacion de computo.
+2026-11-20 13:36:07,584 - INFO - Servicio registrado: E001 - Asesoria de software.
+2026-11-20 13:38:37,208 - ERROR - Error controlado en el menú: No existe un cliente registrado con esa identificación.
+2026-11-20 13:40:50,549 - INFO - Cliente registrado: 231425 - Lorena Pino.
+2026-11-20 13:41:41,268 - INFO - Servicio registrado: 23saq - Sala de reuniones.
+2026-11-20 13:43:06,201 - INFO - Se creó la reserva RA001 para el cliente Lorena Pino.
+2026-11-20 13:43:06,202 - INFO - Reserva RA001 creada para el cliente 231425.
+2026-11-20 13:44:54,380 - ERROR - Error controlado en el menú: No existe un servicio registrado con ese identificador.
+2026-11-20 13:46:53,820 - INFO - Reserva RA001 confirmada. Total: $157080.00.
+2026-11-20 13:46:53,822 - INFO - Finalizó el intento de procesamiento de la reserva RA001.
+2026-11-20 13:46:53,822 - INFO - El sistema confirmó la reserva RA001.
+2026-11-20 13:48:39,524 - INFO - Servicio registrado: EQ002 - Alquiler computo.
+2026-11-20 13:50:05,633 - INFO - Se creó la reserva RA002 para el cliente Lorena Pino.
+2026-11-20 13:50:05,635 - INFO - Reserva RA002 creada para el cliente 231425.
+2026-11-20 13:50:18,353 - INFO - Reserva RA002 confirmada. Total: $89250.00.
+2026-11-20 13:50:18,355 - INFO - Finalizó el intento de procesamiento de la reserva RA002.
+2026-11-20 13:50:18,355 - INFO - El sistema confirmó la reserva RA002.
+2026-11-20 13:52:31,811 - ERROR - Error controlado en el menú: No se encontró la reserva solicitada.
+2026-11-20 13:53:45,044 - ERROR - Error controlado en el menú: No existe un cliente registrado con esa identificación.
+2026-11-20 13:56:38,350 - ERROR - Error controlado en el menú: Ya existe un cliente con esa identificación.
+2026-11-20 13:57:23,977 - INFO - Cliente registrado: 7643123 - Gloria Alegria.
+2026-11-20 13:58:12,441 - INFO - Se creó la reserva RA003 para el cliente Gloria Alegria.
+2026-11-20 13:58:12,443 - INFO - Reserva RA003 creada para el cliente 7643123.
+2026-11-20 13:58:26,834 - INFO - Reserva RA003 confirmada. Total: $171360.00.
+2026-11-20 13:58:26,834 - INFO - Finalizó el intento de procesamiento de la reserva RA003.
+2026-11-20 13:58:26,834 - INFO - El sistema confirmó la reserva RA003.
+2026-11-20 13:59:43,885 - INFO - La reserva RA003 fue cancelada.
+2026-11-20 13:59:43,887 - INFO - El sistema canceló la reserva RA003.
+2026-11-20 14:00:51,510 - ERROR - No se pudo procesar la reserva RA003.
+Traceback (most recent call last):
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/sistema.py", line 198, in procesar_reserva
+    total = reserva_encontrada.procesar_reserva()
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/reservas.py", line 160, in procesar_reserva
+    raise OperacionNoPermitidaError(
+        "Solo se pueden procesar reservas pendientes."
+    )
+excepciones.OperacionNoPermitidaError: Solo se pueden procesar reservas pendientes.
+2026-11-20 14:00:51,525 - ERROR - Error controlado en el menú: Solo se pueden procesar reservas pendientes.
+2026-11-20 14:03:16,129 - ERROR - Error controlado en el menú: Ya existe una reserva con ese identificador.
+2026-11-20 14:04:14,306 - INFO - Se creó la reserva RA004 para el cliente Gloria Alegria.
+2026-11-20 14:04:14,309 - INFO - Reserva RA004 creada para el cliente 7643123.
+2026-11-20 14:05:24,439 - ERROR - Error al procesar la reserva RA004.
+Traceback (most recent call last):
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/reservas.py", line 168, in procesar_reserva
+    desglose = self.__servicio.calcular_desglose(
+        self.__duracion,
+        self.__impuesto,
+        self.__descuento
+    )
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/servicios.py", line 383, in calcular_desglose
+    return self._calcular_desglose(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        duracion,
+        ^^^^^^^^^
+    ...<2 lines>...
+        self.__costo_mantenimiento
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/servicios.py", line 186, in _calcular_desglose
+    self.validar_parametros(duracion, impuesto, descuento)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/servicios.py", line 358, in validar_parametros
+    super().validar_parametros(duracion, impuesto, descuento)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/servicios.py", line 145, in validar_parametros
+    raise ServicioNoDisponibleError(
+        "El servicio seleccionado no está disponible."
+    )
+excepciones.ServicioNoDisponibleError: El servicio seleccionado no está disponible.
+2026-11-20 14:05:24,453 - INFO - Finalizó el intento de procesamiento de la reserva RA004.
+2026-11-20 14:05:24,453 - ERROR - No se pudo procesar la reserva RA004.
+Traceback (most recent call last):
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/reservas.py", line 168, in procesar_reserva
+    desglose = self.__servicio.calcular_desglose(
+        self.__duracion,
+        self.__impuesto,
+        self.__descuento
+    )
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/servicios.py", line 383, in calcular_desglose
+    return self._calcular_desglose(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        duracion,
+        ^^^^^^^^^
+    ...<2 lines>...
+        self.__costo_mantenimiento
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/servicios.py", line 186, in _calcular_desglose
+    self.validar_parametros(duracion, impuesto, descuento)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/servicios.py", line 358, in validar_parametros
+    super().validar_parametros(duracion, impuesto, descuento)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/servicios.py", line 145, in validar_parametros
+    raise ServicioNoDisponibleError(
+        "El servicio seleccionado no está disponible."
+    )
+excepciones.ServicioNoDisponibleError: El servicio seleccionado no está disponible.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/sistema.py", line 198, in procesar_reserva
+    total = reserva_encontrada.procesar_reserva()
+  File "/Users/briyithdahiana/Documents/Fase4_Programación/reservas.py", line 187, in procesar_reserva
+    raise ReservaInvalidaError(
+        "No fue posible procesar la reserva."
+    ) from error
+excepciones.ReservaInvalidaError: No fue posible procesar la reserva.
+2026-11-20 14:05:24,454 - ERROR - Error controlado en el menú: No fue posible procesar la reserva.
+2026-11-20 14:10:57,346 - INFO - Se inició el sistema de gestión de Software FJ.
+2026-11-20 14:12:03,409 - INFO - Servicio registrado: PRU001 - Asesoria de computo.
