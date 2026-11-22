@@ -156,6 +156,12 @@ class SistemaGestion:
                 "No existe un servicio registrado con ese identificador."
             )
 
+        # Verificamos que el servicio esté disponible.
+        if not servicio_encontrado.disponible:
+            raise OperacionNoPermitidaError(
+                "El servicio seleccionado no está disponible para nuevas reservas."
+            )
+
         # Evitamos identificadores de reserva repetidos.
         for reserva in self.__reservas:
             if reserva.id_reserva == id_reserva:
@@ -266,11 +272,6 @@ class SistemaGestion:
 
         return self.__reservas.copy()
 
-    # ------------------------------------------------------
-    # MOSTRAR LOS REGISTROS DEL SISTEMA
-    # ------------------------------------------------------
-
-    
     # ------------------------------------------------------
     # MOSTRAR LOS REGISTROS DEL SISTEMA
     # ------------------------------------------------------
